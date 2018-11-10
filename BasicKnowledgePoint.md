@@ -28,4 +28,4 @@ document.write("引用JS文件！");
 
 ## JS放在页面中的位置
 * 可以将JavaScript代码放在html文件中任何位置，但是我们一般放在网页的head或者body部分。  
-1. 放在&60;head&62;部分
+1. 放在&#60;head&#62;部分
