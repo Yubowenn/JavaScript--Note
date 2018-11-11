@@ -86,8 +86,25 @@ window.open([URL], [窗口名称], [参数字符串])
    3⃣️ 相同 name 的窗口只能创建一个，要想创建多个窗口则 name 不能相同。  
    4⃣️ name 不能包含有空格。
 3. 参数字符串：可选参数，设置窗口参数，各参数用逗号隔开。  
-|参数  |值  |  
-| :----| ----:|  
+举例：
+```javascript
+<script type="text/javascript"> window.open('http://www.imooc.com','_blank','width=300,height=200,menubar=no,toolbar=no, status=no,scrollbars=yes')
+</script>
+```
+
+
+## 关闭窗口（window.close）
+* 语法：
+1. `window.close();   //关闭本窗口,window是窗口名`
+2. `<窗口对象>.close();   //关闭指定的窗口`
+* 举例：
+```javascript
+<script type="text/javascript">
+   var mywin=window.open('http://www.imooc.com'); //将新打的窗口对象，存储在变量mywin中
+   mywin.close();
+</script>
+```
+
 
 
 
