@@ -86,6 +86,7 @@ window.open([URL], [窗口名称], [参数字符串])
    3⃣️ 相同 name 的窗口只能创建一个，要想创建多个窗口则 name 不能相同。  
    4⃣️ name 不能包含有空格。
 3. 参数字符串：可选参数，设置窗口参数，各参数用逗号隔开。  
+![info](http://img.mukewang.com/52e3677900013d6a05020261.jpg)  
 举例：
 ```javascript
 <script type="text/javascript"> window.open('http://www.imooc.com','_blank','width=300,height=200,menubar=no,toolbar=no, status=no,scrollbars=yes')
