@@ -49,4 +49,30 @@ Hello World
 Object.style.property=new style;
 ```
 ⚠️ Object是获取的元素对象，如通过document.getElementById("id")获取的元素。
-* 基本属性表：
+* 基本属性表：  
+![property](http://img.mukewang.com/52e4d4240001dd6c04850229.jpg)
+* 举例：
+```javascript
+<p id="pcon">Hello World!</p>
+<script>
+   var mychar = document.getElementById("pcon");
+   mychar.style.color="red";
+   mychar.style.fontSize="20";
+   mychar.style.backgroundColor ="blue";
+</script>
+```
+结果为：  
+![result_2](http://img.mukewang.com/52e4d6ae000177d203770253.jpg)
+
+
+## 显示和隐藏（display属性）
+* 语法：
+```javascript
+Object.style.display = value
+```
+⚠️ Object是获取的元素对象，如通过document.getElementById("id")获取的元素。  
+* value取值：
+![value](http://img.mukewang.com/52e4dba5000179da04110095.jpg)
+
+
+
